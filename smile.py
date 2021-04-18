@@ -8,8 +8,8 @@ Step3: Show whole frame with smile
 from cv2 import cv2
 
 #first detecting faces
-face_detector=cv2.CascadeClassifier('C:/Users/nandi/AppData/Local/Programs/Python/Python39/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml')
-smile_detector=cv2.CascadeClassifier('C:/Users/nandi/AppData/Local/Programs/Python/Python39/Lib/site-packages/cv2/data/haarcascade_smile.xml')
+face_detector=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+smile_detector=cv2.CascadeClassifier('haarcascade_smile.xml')
 #webcam/video capture (0-webcam)
 webcam=cv2.VideoCapture(0)
 
